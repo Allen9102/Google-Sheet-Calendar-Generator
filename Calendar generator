@@ -87,7 +87,7 @@ function generateCalendar() {
       }
     }
 
-    // ▼ 一定要填時間欄（15 列）
+    // 一定要填時間欄（15 列）
     for (var j = 0; j < timeSlots.length; j++) {
       sheet.getRange(rowOffset + 1 + j, 1)
         .setValue(timeSlots[j])
@@ -95,13 +95,13 @@ function generateCalendar() {
         .setBackground("#cccccc");
     }
 
-    // ▼ ★ 新增：在 22:00~23:00 的下一列整列 A:H 上背景色#acb9ca
+    // 在 22:00~23:00 的下一列整列 A:H 上背景色#acb9ca
     var endRow = rowOffset + timeSlots.length + 1;
     sheet.getRange(endRow, 1, 1, 8).setBackground("#acb9ca");
 
     rowOffset = endRow;
 
-    // ▼ 若這週是跨月的最後一週 → 填完時間就停止
+    // 若這週是跨月的最後一週 → 填完時間就停止
     if (stopAfterThisWeek) break;
   }
 
