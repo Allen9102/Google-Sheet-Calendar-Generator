@@ -49,7 +49,7 @@ Then enter the month.
 
 The script automatically creates a new worksheet containing the monthly calendar.
 
-The weekdays start from Monday.
+The weekdays start from Monday (the character for 星期一).
 
 <img width="1417" height="562" alt="截圖 2026-09-10 15 47 17" src="https://github.com/user-attachments/assets/fe3eef9a-e41c-40e7-873c-923bc4270d80" />
 
