@@ -153,7 +153,7 @@ function generateCalendar() {
   sheet.setRowHeights(1, sheet.getLastRow(), 25);
 }
 
-// **合併儲存格並填色**
+// 合併儲存格並填色
 function mergeCellsAndFill(sheet, cells) {
   if (cells.length > 0) {
     var firstCell = cells[0];
