@@ -1,1 +1,1 @@
-# Google-Sheet-Calendar-Generater
+# Google Sheet Calendar Generater
